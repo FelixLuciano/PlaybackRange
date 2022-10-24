@@ -1,27 +1,41 @@
-const range = Object.assign(document.createElement('input'), {
-  type: 'range',
-  min: 0.25,
-  max: 10,
-  step: 0.1,
-  value: 3,
-  style: 'width: 20%; height: 1.5rem; min-width: 15em; position: fixed; bottom: 1rem; right: 1rem',
+const range = document.createElement("input");
 
-  oninput () {
-    const value = this.value <= 3 ? this.value / 3 : (this.value * 4 - 5) / 7
+range.type  = "range";
+range.min   = 0.25;
+range.max   = 10;
+range.step  = 0.1;
+range.value = 3;
 
-    document.querySelectorAll('audio, video').foreach(node => node.playbackRate = value)
-  },
-  oncontextmenu () { 
-    this.value = 3
-    this.dispatchEvent(new Event('input'))
 
-    return false
-  },
-  onkeyup (e) {
-    if (e.key === 'Escape') {
-      this.remove()
-    }
-  }
-})
+range.style.setProperty("width", "20%");
+range.style.setProperty("height", "1.5rem");
+range.style.setProperty("min-width", "15em");
+range.style.setProperty("position", "fixed");
+range.style.setProperty("bottom", "1rem");
+range.style.setProperty("right", "1rem");
+range.style.setProperty("accent-color", "#FD2");
 
-document.body.appendChild(node)
+
+range.oninput = function () {
+  let value = this.value <= 3 ? this.value / 3 : (this.value * 4 - 5) / 7;
+
+  document.querySelectorAll("audio, video").forEach((node) =>
+    node.playbackRate = value
+  );
+}
+
+range.oncontextmenu = function (event) {
+  event.preventDefault();
+
+  this.value = 3;
+  this.dispatchEvent(new Event("input"));
+
+  return false;
+}
+
+range.onkeyup = function () {
+  if (event.key === "Escape") this.remove();
+}
+
+
+document.body.appendChild(range);
