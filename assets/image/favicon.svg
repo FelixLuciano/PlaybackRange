@@ -1,24 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FF2222;}
-	.st1{fill:#442222;}
-	.st2{fill:#FFFFFF;}
-</style>
-<g>
-	<circle class="st0" cx="3" cy="3" r="3"/>
-	<circle class="st0" cx="13" cy="13" r="3"/>
-	<circle class="st0" cx="3" cy="13" r="3"/>
-	<circle class="st0" cx="13" cy="3" r="3"/>
-	<rect x="3" class="st0" width="10" height="10"/>
-	<rect x="3" y="6" class="st0" width="10" height="10"/>
-	<rect x="6" y="3" class="st0" width="10" height="10"/>
-	<rect y="3" class="st0" width="10" height="10"/>
-</g>
-<g>
-	<path class="st1" d="M8.1,7.6L3.6,5C3.2,4.8,2.8,5,2.8,5.4v5.2c0,0.4,0.4,0.6,0.7,0.4l4.5-2.6C8.4,8.2,8.4,7.8,8.1,7.6z"/>
-	<path class="st2" d="M14.1,7.6l-6-3.5c-0.3-0.2-0.8,0-0.8,0.4v6.9c0,0.4,0.4,0.6,0.8,0.4l6-3.5C14.4,8.2,14.4,7.8,14.1,7.6z"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <g fill="#F22">
+        <circle cx="3" cy="3" r="3"/>
+        <circle cx="13" cy="13" r="3"/>
+        <circle cx="3" cy="13" r="3"/>
+        <circle cx="13" cy="3" r="3"/>
+        <rect x="3" width="10" height="16"/>
+        <rect y="3" width="16" height="10"/>
+    </g>
+    <g fill="none" stroke="#422" stroke-linecap="round">
+        <circle stroke-dasharray="2" cx="8" cy="8" r="6" style="transform-origin:center;animation:a 4s ease-in-out infinite;"/>
+        <circle stroke-dasharray="18 18" stroke-dashoffset="8" cx="8" cy="8" r="6"/>
+    </g>
+    <path fill="#FFF" d="M11.25,7.57,6.75,5A.5.5,0,0,0,6,5.4v5.2a.5.5,0,0,0,.75.43l4.5-2.6A.5.5,0,0,0,11.25,7.57Z"/>
+    <style>@keyframes a{to{transform:rotate(360deg);}}</style>
 </svg>
