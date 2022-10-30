@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "node build.js --name PlaybackRange --source src/PlaybackRange.js --favicon src/favicon.svg --output build/PlaybackRange.html"
+  },
+  "dependencies": {
+    "convert-svg-to-png": "^0.6.4",
+    "esbuild": "^0.15.12",
+    "minimist": "^1.2.7"
+  }
+}

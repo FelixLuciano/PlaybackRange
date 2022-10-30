@@ -13,7 +13,7 @@ range.style.setProperty("min-width", "15em");
 range.style.setProperty("position", "fixed");
 range.style.setProperty("bottom", "1rem");
 range.style.setProperty("right", "1rem");
-range.style.setProperty("accent-color", "#FD2");
+range.style.setProperty("accent-color", "#F22");
 
 
 range.oninput = function () {
