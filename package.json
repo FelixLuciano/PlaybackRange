@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "convert-svg-to-png": "^0.6.4",
+    "esbuild": "^0.15.12"
+  }
+}
