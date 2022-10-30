@@ -23,7 +23,7 @@
     - [See how on Firefox](https://support.mozilla.org/en-US/kb/import-bookmarks-html-file);
 3. Go to any website with an HTML5 video or audio player and open `PlaybackRange` at favorites bar;
 4. Slide the range at the right bottom corner of the screen;
-7. Right click to reset;
+7. `Right click` to reset;
 7. Press `esc` to delete.
 
 
