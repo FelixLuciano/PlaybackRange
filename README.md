@@ -12,12 +12,12 @@
 </p>
 
 <p align="center">
-    <a href="#"><strong>Download</strong></a>
+    <a href="https://github.com/FelixLuciano/PlaybackRange/releases/download/lastest/PlaybackRange.html"><strong>Download</strong></a>
 </p>
 
 ## How to use
 
-1. [Download PlaybackRange](#);
+1. [Download PlaybackRange](https://github.com/FelixLuciano/PlaybackRange/releases/download/lastest/PlaybackRange.html);
 2. Import it as bookmarks to your web browser:
     - [See how on Chrome](https://support.google.com/chrome/answer/96816?hl=en);
     - [See how on Firefox](https://support.mozilla.org/en-US/kb/import-bookmarks-html-file);
