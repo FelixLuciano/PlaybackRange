@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/favicon.svg" width="200" alt="PlaybackRange logo">
+  <img src="src/PlaybackRange/favicon.svg" width="200" alt="PlaybackRange logo">
 </p>
 
 <h1 align="center">PlaybackRange</h1>
