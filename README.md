@@ -1,5 +1,3 @@
-<link rel="shortcut icon" type="image/svg+xml" href="src/favicon.svg">
-
 <p align="center">
   <img src="src/favicon.svg" width="200" alt="PlaybackRange logo">
 </p>
