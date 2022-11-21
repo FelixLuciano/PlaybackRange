@@ -28,4 +28,4 @@
 
 
 ## License
-This project is [MIT licensed](LICENSE).
+This project is [MIT licensed](https://github.com/FelixLuciano/PlaybackRange/blob/main/LICENSE).
