@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/FelixLuciano/PlaybackRange/releases/download/lastest/PlaybackRange.html"><strong>Download</strong></a>
+    <a href="https://github.com/FelixLuciano/PlaybackRange/releases/download/v1.0.0-rc2/PlaybackRange.html"><strong>Download</strong></a>
 </p>
 
 ## How to use
