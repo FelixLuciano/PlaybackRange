@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "node src/build.js --name PlaybackRange --source src/PlaybackRange/script.js --favicon src/PlaybackRange/favicon.svg --output build/PlaybackRange.html"
+    "build": "node src/build.js --source src/PlaybackRange/script.js --favicon src/PlaybackRange/favicon.svg --output build/PlaybackRange.html"
   },
   "dependencies": {
     "convert-svg-to-png": "^0.6.4",

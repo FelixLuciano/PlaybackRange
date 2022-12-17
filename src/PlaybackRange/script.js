@@ -1,4 +1,4 @@
-const range = document.createElement("input");
+let range = document.createElement("input");
 
 range.type  = "range";
 range.min   = 0.25;
